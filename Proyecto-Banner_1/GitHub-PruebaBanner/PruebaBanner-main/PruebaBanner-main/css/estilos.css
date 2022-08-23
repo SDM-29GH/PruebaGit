@@ -11,7 +11,7 @@ a{
 .container{ /*REUTILIZADO*/
    padding-left: 15px;
    padding-right: 15px;
-   margin: 0 auto;
+   margin: -50px auto;
    width: 1170px;
 }
 
@@ -85,15 +85,18 @@ a{
    color: rgb(255, 204, 0);
    font-size: 70px;
    font-weight: 500;
+   background-color: rgba(0, 0, 0, 0.4);
+   border-radius: 15px;
 }
 
 #banner .container p{    
    color: rgb(255, 174, 0);
-   background-color: #ffa0335c;
    font-size: 20px;
    line-height: 1.5;
    font-weight: 600;
-   justify-content: justify;
+   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.4);
+   border-radius: 15px;
 }
 
 .btn{
